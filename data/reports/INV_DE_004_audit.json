@@ -1,0 +1,32 @@
+{
+  "document_name": "data/incoming/INV_DE_004.pdf",
+  "final_verdict": "accept",
+  "human_verdict": null,
+  "human_remarks": [],
+  "invoice_details": {
+    "invoice_no": "RE-2025-004",
+    "po_number": "PO-1004",
+    "invoice_date": "2025-05-02",
+    "vendor_id": "Harbor Logistics GmbH",
+    "currency": "EUR",
+    "total_amount": 1760.0,
+    "line_items": [
+      {
+        "item_code": "SKU-301",
+        "description": "Shipping crates",
+        "qty": 40.0,
+        "unit_price": 25.0,
+        "total": 1000.0
+      },
+      {
+        "item_code": "SKU-302",
+        "description": "Safety vests",
+        "qty": 60.0,
+        "unit_price": 10.0,
+        "total": 600.0
+      }
+    ]
+  },
+  "invoice_metadata": "Meta content not available",
+  "audit_report": "# Invoice Audit Report\n\n## Invoice Details:\nInvoice No: RE-2025-004\nPO Number: PO-1004\nInvoice Date: 2025-05-02\nVendor: Harbor Logistics GmbH\nCurrency: EUR\nTotal Amount: 1760.00 EUR\n\n### Line Items:\n| Item Code | Description | Qty | Unit Price | Total |\n| --------- | ----------- | --- | ---------- | ----- |\n| SKU-301 | Shipping crates | 40 | 25.00 EUR | 1000.00 EUR |\n| SKU-302 | Safety vests | 60 | 10.00 EUR | 600.00 EUR |\n\n## Invoice Metadata:\nMeta content not available for this invoice.\n\n## Data Validation Phase:\n- No validation errors found in the invoice details.\n- No corrections or format compliance issues identified by the AI agent.\n- Human in the loop was not triggered during this phase.\n\n## Business Validation Phase:\n- No errors or data mismatches found between the invoice details and ERP data.\n- Difference Percentages: \n   - Price Difference: 0%\n   - Quantity Difference: 0%\n   - Tax Difference: 0%\n- Human in the loop was not triggered during this phase.\n\n## Final Verdict:\nBased on the audit steps and the information collected, the invoice with the number RE-2025-004 from Harbor Logistics GmbH is APPROVED. \n\n## Conclusion:\nThis report summarizes the audit of invoice RE-2025-004 from Harbor Logistics GmbH. The data extraction, translation, and validation phases did not identify any errors or issues. The invoice details, including line items, quantities, and prices, match the corresponding information in the ERP system. As a result, the invoice has been approved without any corrections or rejections."
+}

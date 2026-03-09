@@ -1,0 +1,41 @@
+{
+  "document_name": "data/incoming/INV_EN_001.pdf",
+  "final_verdict": "accept",
+  "human_verdict": "accept",
+  "human_remarks": [
+    "Approve. "
+  ],
+  "invoice_details": {
+    "invoice_no": "INV-1001",
+    "po_number": "PO-1001",
+    "invoice_date": "2025-03-14",
+    "vendor_id": "Global Logistics Ltd",
+    "currency": null,
+    "total_amount": 1617.0,
+    "line_items": [
+      {
+        "item_code": "SKU-001",
+        "description": "Pallet Wrapping Film",
+        "quantity": 50.0,
+        "unit_price": 12.0,
+        "line_total": 600.0
+      },
+      {
+        "item_code": "SKU-002",
+        "description": "Industrial Gloves / Guantes Industriales",
+        "quantity": 120.0,
+        "unit_price": 3.5,
+        "line_total": 420.0
+      },
+      {
+        "item_code": "SKU-003",
+        "description": "Cascos de seguridad",
+        "quantity": 30.0,
+        "unit_price": 15.0,
+        "line_total": 450.0
+      }
+    ]
+  },
+  "invoice_metadata": "Meta content not available",
+  "audit_report": "## Invoice Audit Report\n\n### Invoice Details:\n- Invoice Number: INV-1001\n- PO Number: PO-1001\n- Invoice Date: 2025-03-14\n- Vendor: Global Logistics Ltd\n- Total Amount: 1617.0\n- Line Items: 3\n  - Line Item 1: SKU-001, Pallet Wrapping Film, Quantity: 50, Unit Price: 12.0, Line Total: 600.0\n  - Line Item 2: SKU-002, Industrial Gloves / Guantes Industriales, Quantity: 120, Unit Price: 3.5, Line Total: 420.0\n  - Line Item 3: SKU-003, Cascos de seguridad, Quantity: 30, Unit Price: 15.0, Line Total: 450.0\n\n### Invoice Metadata:\n- Translation Confidence Score: 0.9\n- Meta Content: Not Available\n\n### Data Validation:\n- Validation Errors: \n  - Missing field: 'currency'.\n  - Data type mismatch for field 'total_amount'; expected type is float.\n- AI Agent Decision: Triggered human review for validation errors.\n- Human Review Feedback: Approved. \n\n### Business Validation:\n- Errors found: None\n- Difference Percentages: None\n- AI Agent Decision: N/A\n- Human Review: N/A\n\n### Final Verdict: \nAPPROVED\n\n### Conclusion:\nThe invoice with the number INV-1001 from Global Logistics Ltd has been audited and validated. Minor validation errors were identified and reviewed by a human operator, who approved the corrections. No further issues were found during the business validation phase, and the invoice has been approved for further processing."
+}

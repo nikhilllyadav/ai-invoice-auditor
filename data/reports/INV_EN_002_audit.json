@@ -1,0 +1,27 @@
+{
+  "document_name": "data/incoming/INV_EN_002.pdf",
+  "final_verdict": "accept",
+  "human_verdict": "accept",
+  "human_remarks": [
+    "This one can be accepted, it has the required data."
+  ],
+  "invoice_details": {
+    "invoice_no": "INV-1002",
+    "po_number": "PO-1002",
+    "invoice_date": "2025-04-20",
+    "vendor_id": "Blue Ocean Transport Co.",
+    "currency": "USD",
+    "total_amount": 275.0,
+    "line_items": [
+      {
+        "item_code": null,
+        "description": "Container seals for maritime shipping, ensuring cargo security and protection from tampering and theft. These seals are tamper-evident and provide a clear indication of any unauthorized access attempts.",
+        "quantity": 200.0,
+        "unit_price": 1.25,
+        "line_total": 250.0
+      }
+    ]
+  },
+  "invoice_metadata": "Meta content not available",
+  "audit_report": "Here is the generated Invoice Audit Report based on the provided instructions and information:\n\n## Invoice Audit Report\n\n### Invoice Details:\n- Invoice Number: INV-1002\n- PO Number: PO-1002\n- Invoice Date: 2025-04-20\n- Vendor: Blue Ocean Transport Co.\n- Currency: USD\n- Total Amount: 275.00 USD\n- Line Items:\n    - Description: Container seals for maritime shipping, ensuring cargo security and protection from tampering and theft. These seals are tamper-evident and provide a clear indication of any unauthorized access attempts.\n    - Quantity: 200\n    - Unit Price: 1.25 USD\n    - Line Total: 250.00 USD\n\n### Invoice Metadata:\n- Meta Content: Not Available\n\n### Data Validation Phase:\n- Validation Errors:\n    - Missing required field: 'item_code' in line_items.\n    - Invalid datatype for field 'quantity' in line_items; expected float, found string.\n    - Invalid datatype for field 'line_total' in line_items; expected float, found string.\n- AI Agent Corrections/Decisions: The AI agent triggered a 'human_review' interrupt, requesting human intervention for approval.\n- Human Review Feedback: The interrupt was approved with the comment, \"This one can be accepted; it has the required data.\"\n\n### Business Validation Phase:\n- Errors/Data Mismatches: None\n- Difference Percentages: None\n- AI Agent Decision: None\n- Human Review Feedback: None\n\n### Final Verdict: APPROVED\n\n### Conclusion:\nDuring the data validation phase, the AI agent identified missing and invalid data format fields, which were then reviewed and approved by a human operator. No further issues were found during the business validation phase, and the invoice was approved. This report ensures that the invoice complies with the required format and can be processed further."
+}

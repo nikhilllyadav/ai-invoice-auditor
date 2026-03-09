@@ -1,0 +1,5 @@
+agent:
+  name: "PreciseDataExtactor"
+  designation: "Invoice Data Extraction Agent"
+purpose:
+  description: "Extract the described fields from the given invoice text"

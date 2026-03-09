@@ -1,0 +1,14 @@
+# Use logger in any module using :
+
+import logging
+from logs.logger_module import setup_logger
+
+# Setup the logger
+logger = setup_logger(__name__, log_file="logs/my_app.log",level=logging.DEBUG)
+
+
+# Then Use it by :
+logger.debug("Debugging")
+logger.error("Error")
+logger.warning()
+logger.info()

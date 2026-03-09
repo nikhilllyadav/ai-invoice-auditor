@@ -1,0 +1,27 @@
+{
+  "document_name": "data/incoming/INV_EN_006_malformed.pdf",
+  "final_verdict": "reject",
+  "human_verdict": "reject",
+  "human_remarks": [
+    "Faulty Invoice, Rejected"
+  ],
+  "invoice_details": {
+    "invoice_no": "PO-1006",
+    "po_number": "PO-1006",
+    "invoice_date": "2025-06-01",
+    "vendor_id": "OceanFreight Pvt Ltd",
+    "currency": null,
+    "total_amount": 44000.0,
+    "line_items": [
+      {
+        "item_code": "SKU-501",
+        "description": "Transporte de contenedores [Container Transport in Spanish] (High-cube, 40ft).",
+        "qty": 5.0,
+        "unit_price": 8000.0,
+        "total": 40000.0
+      }
+    ]
+  },
+  "invoice_metadata": "Meta content not available",
+  "audit_report": "# Invoice Audit Report\n\n## Invoice Details:\n**Invoice Number:** PO-1006\n**PO Number:** PO-1006\n**Invoice Date:** 2025-06-01\n**Vendor ID:** OceanFreight Pvt Ltd\n**Currency:** None\n**Total Amount:** 44000.0\n\n**Line Items:**\n- **Item Code:** SKU-501\n**Description:** Transporte de contenedores [Container Transport in Spanish] (High-cube, 40ft)\n**Quantity:** 5.0\n**Unit Price:** 8000.0\n**Total:** 40000.0\n\n## Invoice Metadata:\n**Translation Confidence Score:** 0.9\n**Meta Content:** Not available\n\n## Data Validation Phase:\n**Errors found:**\n- \"Missing field: 'currency' .\"\n- 'Line item total (40000) does not match the calculated total (44000) for the line item.'\n\n**AI Agent Decision:** Trigger human review for further analysis.\n\n**Human Review Feedback:** Faulty Invoice, Rejected.\n\n## Business Validation Phase:\n**Errors found:** None\n**Difference Percentages:** None\n\n**AI Agent Decision:** N/A\n\n**Human Review Feedback:** N/A\n\n## Final Verdict: REJECTED\n\n## Conclusion:\nBased on the audit steps and information gathered, the invoice with the number PO-1006 from OceanFreight Pvt Ltd has been rejected due to missing and inconsistent fields. The total amount and line item totals did not match, and the 'currency' field was missing. The AI agent triggered human review during the data validation phase, and the human reviewer rejected the invoice. No further action is required as the invoice has been rejected."
+}
